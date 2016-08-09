@@ -1,0 +1,118 @@
+body {
+	background: #1c2b51;
+	font-family: Calibri;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+	text-align: left;
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #9a204b;
+	text-decoration: none; 
+}
+a:visited {
+	color: #9a204b;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 700px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.header {
+	background-color: #c2e7bc;
+	text-align: center;
+}
+.headings {
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #003;
+	text-align: left;
+}
+
+
+.content {
+	background-color: #c2e7bc;
+	color: #003;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+			
+
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.content_art {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003;
+}
+
+.footer {
+	font-family: Calibri;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #92CE54;
+	text-align: center;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.nav_bar {
+	background-color: #b1d67d;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	width: 700px;
+	text-align: center;
+}
+
+.nav_bar_hover {display:inline-block; height:50px; overflow:hidden}
+.nav_bar_hover:hover img {margin-top:-50px}
+/*Navigation rollovers.  WOO.*/
+.content_info {
+	font-weight: normal;
+}
+.container .content .content_art {
+	font-weight: normal;
+	text-align: left;
+}
+.moar_content {
+	font-weight: bold;
+}
